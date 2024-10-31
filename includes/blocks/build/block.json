@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "ratabs-plugin/ratabs-block",
+	"version": "0.1.0",
+	"title": "Responsive Tabs",
+	"category": "widgets",
+	"icon": "layout",
+	"description": "Responsive Accordion Tabs.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "ratabs-block",
+	"editorScript": "file:index.js",
+	"editorStyle": "file:index.css",
+	"style": "file:ratabs-styles.css"
+}

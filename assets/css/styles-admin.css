@@ -1,0 +1,62 @@
+hr {
+	grid-column: 1 / span 2;
+	width: 100%;
+}
+.accordion-tab-metabox {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.accordion-tab-row {
+	display: flex;
+	flex-basis: 20%;
+}
+.accordion-tab-field-wrapper {
+	border-top: 1px solid #dcdcdcdc;
+	flex-basis: 80%;
+}
+
+.accordion-tab-row .dashicons-move {
+	flex-basis: 20%;
+	width: auto;
+	cursor:move
+}
+.accordion-tab-field {
+	display: flex;
+	flex-basis: 100%;
+}
+.accordion-tab-field.image-display {
+	flex-direction: column;
+}
+.accordion-tab-field label {
+	flex-basis: 20%;	
+}
+.accordion-tab-field .fullwidth,
+.accordion-tab-field .wp-editor-wrap {
+	flex-basis: 80%;
+}
+.clone-row {
+	display: none;
+}
+.accordion-tab-row-placeholder {
+	border: 1px dotted black;
+	margin: 0 1em 1em 0;
+	height: 50px;
+}
+
+.remove-image-wrap {
+	display: none;
+}
+.remove-image-wrap.show {
+	display: flex;
+}
+.accordion-tabs-remove-image-button {
+	 background: #890000!important;
+	 color: #fff!important;
+	 border-color: #890000!important;
+}
+
+//SIDEBAR META BOX
+#accordion-tab-metabox-sidebar input.fullwidth {
+	width: 100%;
+}
